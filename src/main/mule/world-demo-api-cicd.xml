@@ -20,6 +20,7 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	city : attributes.uriParams.city
 }]]]></http:uri-params>
 		</http:request>
-		<logger level="INFO" doc:name="Logger" doc:id="21395a53-bac3-4fd3-8271-e1beb7e96c96" message="**** Logging end ****"/>
+		<logger level="INFO" doc:name="Logger" doc:id="21395a53-bac3-4fd3-8271-e1beb7e96c96" message="**** Logger 1  ****"/>
+		<logger level="INFO" doc:name="Logger" doc:id="97e90fc4-00d4-4331-bffe-eed531333a5b" message=" ****** Logger 2 *******"/>
 	</flow>
 </mule>
